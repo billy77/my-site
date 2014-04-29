@@ -1,0 +1,148 @@
+
+
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+#menu{
+    background:#000;
+    height:75px;
+    opacity: 50%;
+
+}
+ 
+#menu-wrap {
+    margin:0 auto;
+    width:960px;
+    opacity: 50%;
+}
+ 
+#navigation-main {
+    padding:15px;
+    color:#fff;
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+    float:left;
+}
+ 
+#navigation-main li {
+    float:left;
+    margin-right:20px;
+}
+ 
+#navigation-main li a {
+    display:block;
+    color:#fff;
+}
+ 
+#navigation-main li ul  {
+    display:none;
+    z-index:80;
+}
+ 
+#top-nav-info {
+    background:#dddddd;
+    float:left;
+    width:1000px;
+}
+ 
+#top-nav-sec li a {
+    padding:15px;
+    display:inline;
+    height:42px;
+    color:#a19f9f;
+
+}
+ 
+#top-nav-sec li a:hover {
+    color:#000000;
+}
+ 
+.nav-sec {
+    display:block;
+
+    font-size:12px;
+    font-family: lucida sans unicode;
+    font-weight:normal;
+    text-align:center;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+	
+
+html{
+	/* This image will be displayed fullscreen */
+	background:url('http://i1212.photobucket.com/albums/cc448/estes7777/gear%20bag/WEB/DSCF2389_zps648cab8f.jpg') no-repeat center center;
+	
+	/* Ensure the html element always takes up the full height of the browser window */
+	min-height:100%;
+	
+	/* The Magic */
+	background-size:cover;
+}
+
+body{
+	/* Workaround for some mobile browsers */
+	min-height:100%;
+	font:14px/1.3 'Segoe UI',Arial, sans-serif;
+}
+
+a, a:visited {
+	outline:none;
+	color:#000000;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+section, footer, header{
+	display: block;
+}
+
+
+footer h2{
+	color: #000000;
+	font: times;
+	font-size: 40px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -500px;
+	padding: 13px 0 0;
+	position: fixed;
+	width: 550px;
+}
+
+footer h2 i{
+	font-style:normal;
+	font: times;
+	color:#888;
+}
+
+{
+	color: #000000;
+	font-size: 15px;
+	left: 100%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+
+}
+
